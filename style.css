@@ -146,7 +146,7 @@ html{
     justify-content: center;
 }
 em{
-    font-size: 80px;
+    font-size: 60px;
     background-image: linear-gradient(to bottom right, rgb(22, 109, 223), aqua);
   -webkit-background-clip: text;
   color: transparent;

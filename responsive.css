@@ -1,6 +1,11 @@
 @media (max-width: 1300px) {
     em{
         font-size: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
 }
 @media (max-width: 1200px) {

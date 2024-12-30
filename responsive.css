@@ -1,5 +1,5 @@
 @media (max-width: 1300px) {
-    #home h1{
+    em{
         font-size: 60px;
     }
 }
@@ -38,7 +38,7 @@
     }
 }
 @media (max-width: 1000px) {
-    #home h1{
+    em{
         font-size: 40px;
     }
     .container{

@@ -45,6 +45,9 @@
 @media (max-width: 1000px) {
     em{
         font-size: 40px;
+        background-image: linear-gradient(to bottom right, rgb(22, 109, 223), aqua);
+  -webkit-background-clip: text;
+  color: transparent;
     }
     .container{
         max-height: 60px;

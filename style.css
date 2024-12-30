@@ -145,8 +145,8 @@ html{
     align-items: center;
     justify-content: center;
 }
-#home h1{
-    font-size: 90px;
+em{
+    font-size: 100px;
     background-image: linear-gradient(to bottom right, rgb(22, 109, 223), aqua);
   -webkit-background-clip: text;
   color: transparent;

@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./slider.css">
+        <link rel="stylesheet" href="./responsive.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <header class="nav-container">
+            <div class="logo">
+              <img src="./images/logo.png" alt="Logo">
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+            
+            <ul class="links" id="navLinks">
+                <button class="menu-cancel" id="menuCancel">&times;</button>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#booking">Party Booking</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#partnership">Partnership</a></li>
+            </ul>
+        </header>
+          
+          
+        <!-- top botton -->
+         <a href="#" class="topbtn"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+        <!-- slider -->
+        <div class="slider">
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+          </div>
+        <div id="home">
+            <div class="container">
+                <h3>
+                    <ul>
+                        <li><em>WELCOME TO</em></li>
+                        <li><em>GAMEWAVE CRIB</em></li>
+                        <li><em>Your Arcade Adventure</em></li>
+                        <li><em>Starts Here!</em></li>
+                    </ul>
+                </h3>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="./images/bag.png" alt="">
+                </div>
+                <a href="https://paystack.com/pay/zs3buqhc55" class="btn">Buy a bag of coin</a>
+            </div>            
+
+        </div>
+        <div id="about">
+            <h2>
+                GameWave Crib Where Gaming Meets the Beach Vibes
+            </h2>
+            <p>
+                
+                Welcome to GameWave Crib, Nigeria’s ultimate beachside gaming and entertainment spot! Imagine this: the gentle sound of waves in the background, cool beach vibes in the air, and the excitement of playing your favorite arcade games, PS5, and Xbox—all in one amazing place.
+                <br><br>
+                Here at GameWave Crib, it’s all about fun and connection. Whether you’re rolling with family, friends, or your crew, there’s always something to enjoy. Play FIFA with the squad, show off your skills on the arcade machines, or just kick back, relax, and soak in the good vibes.
+                <br><br>
+                Planning a birthday party, hangout, or even a chill date? GameWave Crib is the perfect spot to create unforgettable memories, share plenty of laughs, and have a blast you’ll be talking about for months.
+                <br><br>
+                So, grab your slippers, head to the beach, and let’s vibe!
+                <br><br>
+                <b>GameWave Crib – Na where the fun dey happen!</b>
+            </p>
+        </div>
+        <div id="booking">
+            
+            <h1>Party Booking</h1>
+
+            <!-- Filter Dropdown -->
+            <div class="filter-container">
+                <label for="filter">Filter by Duration:</label>
+                <select id="filter">
+                    <option value="all">All</option>
+                    <option value="1hr">1 Hour</option>
+                    <option value="2hr">2 Hours</option>
+                    <option value="unlimited">5hrs ( unlimited )</option>
+                </select>
+            </div>
+            <!-- Popup Form -->
+            <div class="popup-overlay" id="popupOverlay">
+                <div class="popup">
+                  <button class="close" id="closePopup">&times;</button>
+                  <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSfc0dJk7hBXblwrwrW7a7HJFzOGYZRPy7shSRZK0yXHGF8Qdw/viewform?embedded=true"
+                    width="400"
+                    height="550"
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0"
+                  >
+                    Loading…
+                  </iframe>
+                </div>
+              </div>
+            <!-- Booking Cards -->
+            <div class="card-container">
+                <!-- 1 Hour Card -->
+                <div class="card" data-duration="1hr">
+                    <img src="./images/logo.png" alt="">
+                    <h3>1 Hour Party - 10 People</h3>
+                    <span>
+                        <label>10 Bags Of Coins</label>
+                        ( 5 each )
+                    </span>
+                    <span>
+                        <label>Games Available</label>
+                        Car Race Game, Bike Race Game, Basketball Game, Air Hockey, Shooting Game, Dance Dance Revolution, PS5/Xbox
+
+                    </span>
+                    <span>
+                        <label>Price</label>
+                        <b style="color: #fff;">₦107,000</b>
+                    </span>
+                    <button class="open-popup">Book</button>
+                </div>
+                <!-- 1 Hour Card -->
+                <div class="card" data-duration="1hr">
+                    <img src="./images/logo.png" alt="">
+                    <h3>1 Hour Party - 15 People</h3>
+                    <span>
+                        <label>15 Bags Of Coins</label>
+                        ( 5 each )
+                    </span>
+                    <span>
+                        <label>Games Available</label>
+                        Car Race Game, Bike Race Game, Basketball Game, Air Hockey, Shooting Game, Dance Dance Revolution, PS5/Xbox
+
+                    </span>
+                    <span>
+                        <label>Price</label>
+                        <b style="color: #fff;">₦160,500</b>
+                    </span>
+                    <button class="open-popup">Book</button>
+                </div>
+                <!-- 1 Hour Card -->
+                <div class="card" data-duration="1hr">
+                    <img src="./images/logo.png" alt="">
+                    <h3>1 Hour Party - 20 People</h3>
+                    <span>
+                        <label>20 Bags Of Coins</label>
+                        ( 5 each )
+                    </span>
+                    <span>
+                        <label>Games Available</label>
+                        Car Race Game, Bike Race Game, Basketball Game, Air Hockey, Shooting Game, Dance Dance Revolution, PS5/Xbox
+
+                    </span>
+                    <span>
+                        <label>Price</label>
+                        <b style="color: #fff;">₦214,000</b>
+                    </span>
+                    <button class="open-popup">Book</button>
+                </div>
+                <!-- 1 Hour Card -->
+                <div class="card" data-duration="1hr">
+                    <img src="./images/logo.png" alt="">
+                    <h3>1 Hour Party - 25 People</h3>
+                    <span>
+                        <label>25 Bags Of Coins</label>
+                        ( 5 each )
+                    </span>
+                    <span>
+                        <label>Games Available</label>
+                        Car Race Game, Bike Race Game, Basketball Game, Air Hockey, Shooting Game, Dance Dance Revolution, PS5/Xbox
+
+                    </span>
+                    <span>
+                        <label>Price</label>
+                        <b style="color: #fff;">₦267,500</b>
+                    </span>
+                    <button class="open-popup">Book</button>
+                </div>
+        
+                <!-- 2 Hour Card -->
+                <div class="card" data-duration="2hr">
+                    <img src="./images/logo.png" alt="">
+                    <h3>2 Hour Party - 10 People</h3>
+                    <span>
+                        <label>10 Bags Of Coins</label>
+                        ( 10 each )
+                    </span>
+                    <span>
+                        <label>Games Available</label>
+                        Car Race Game, Bike Race Game, Basketball Game, Air Hockey, Shooting Game, Dance Dance Revolution, PS5/Xbox
+
+                    </span>
+                    <span>
+                        <label>Price</label>
+                        <b style="color: #fff;">₦214,000</b>
+                    </span>
+                    <button class="open-popup">Book</button>
+                </div>
+                <!-- 2 Hour Card -->
+                <div class="card" data-duration="2hr">
+                    <img src="./images/logo.png" alt="">
+                    <h3>2 Hour Party - 15 People</h3>
+                    <span>
+                        <label>15 Bags Of Coins</label>
+                        ( 10 each )
+                    </span>
+                    <span>
+                        <label>Games Available</label>
+                        Car Race Game, Bike Race Game, Basketball Game, Air Hockey, Shooting Game, Dance Dance Revolution, PS5/Xbox
+
+                    </span>
+                    <span>
+                        <label>Price</label>
+                        <b style="color: #fff;">₦321,000</b>
+                    </span>
+                    <button class="open-popup">Book</button>
+                </div>
+                <!-- 2 Hour Card -->
+                <div class="card" data-duration="2hr">
+                    <img src="./images/logo.png" alt="">
+                    <h3>2 Hour Party - 20 People</h3>
+                    <span>
+                        <label>20 Bags Of Coins</label>
+                        ( 10 each )
+                    </span>
+                    <span>
+                        <label>Games Available</label>
+                        Car Race Game, Bike Race Game, Basketball Game, Air Hockey, Shooting Game, Dance Dance Revolution, PS5/Xbox
+
+                    </span>
+                    <span>
+                        <label>Price</label>
+                        <b style="color: #fff;">₦428,000</b>
+                    </span>
+                    <button class="open-popup">Book</button>
+                </div>
+                <!-- 2 Hour Card -->
+                <div class="card" data-duration="2hr">
+                    <img src="./images/logo.png" alt="">
+                    <h3>2 Hour Party - 25 People</h3>
+                    <span>
+                        <label>25 Bags Of Coins</label>
+                        ( 10 each )
+                    </span>
+                    <span>
+                        <label>Games Available</label>
+                        Car Race Game, Bike Race Game, Basketball Game, Air Hockey, Shooting Game, Dance Dance Revolution, PS5/Xbox
+
+                    </span>
+                    <span>
+                        <label>Price</label>
+                        <b style="color: #fff;">₦535,000</b>
+                    </span>
+                    <button class="open-popup">Book</button>
+                </div>
+
+                <!-- 5 Hour Card -->
+                <div class="card" data-duration="unlimited">
+                    <img src="./images/logo.png" alt="">
+                    <h3>5 Hour Unlimited - 10 People</h3>
+                    <span>
+                        <label>Coins per Person</label>
+                        Unlimited
+                    </span>
+                    <span>
+                        <label>Games Available</label>
+                        Car Race Game, Bike Race Game, Basketball Game, Air Hockey, Shooting Game, Dance Dance Revolution, PS5/Xbox
+
+                    </span>
+                    <span>
+                        <label>Benefits</label>
+                        Small chops & Drinks for 10 people
+                    </span>
+                    <span>
+                        <label>Price</label>
+                        <b style="color: #fff;">₦478,000</b>
+                    </span>
+                    <button class="open-popup">Book</button>
+                </div>
+                <!-- 5 Hour Card -->
+                <div class="card" data-duration="unlimited">
+                    <img src="./images/logo.png" alt="">
+                    <h3>5 Hour Unlimited - 20 People</h3>
+                    <span>
+                        <label>Coins per Person</label>
+                        Unlimited
+                    </span>
+                    <span>
+                        <label>Games Available</label>
+                        Car Race Game, Bike Race Game, Basketball Game, Air Hockey, Shooting Game, Dance Dance Revolution, PS5/Xbox
+
+                    </span>
+                    <span>
+                        <label>Benefits</label>
+                        Small chops & Drinks for 20 people
+                    </span>
+                    <span>
+                        <label>Price</label>
+                        <b style="color: #fff;">₦870,000</b>
+                    </span>
+                    <button class="open-popup">Book</button>
+                </div>
+                <!-- 5 Hour Card -->
+                <div class="card" data-duration="unlimited">
+                    <img src="./images/logo.png" alt="">
+                    <h3>5 Hour Unlimited - 30 People</h3>
+                    <span>
+                        <label>Coins per Person</label>
+                        Unlimited
+                    </span>
+                    <span>
+                        <label>Games Available</label>
+                        Car Race Game, Bike Race Game, Basketball Game, Air Hockey, Shooting Game, Dance Dance Revolution, PS5/Xbox
+
+                    </span>
+                    <span>
+                        <label>Benefits</label>
+                        Small chops & Drinks for 30 people
+                    </span>
+                    <span>
+                        <label>Price</label>
+                        <b style="color: #fff;">₦1,280,000</b>
+                    </span>
+                    <button class="open-popup">Book</button>
+                </div>
+                <!-- 5 Hour Card -->
+                <div class="card" data-duration="unlimited">
+                    <img src="./images/logo.png" alt="">
+                    <h3>5 Hour Unlimited - 40 People</h3>
+                    <span>
+                        <label>Coins per Person</label>
+                        Unlimited
+                    </span>
+                    <span>
+                        <label>Games Available</label>
+                        Car Race Game, Bike Race Game, Basketball Game, Air Hockey, Shooting Game, Dance Dance Revolution, PS5/Xbox
+
+                    </span>
+                    <span>
+                        <label>Benefits</label>
+                        Small chops & Drinks for 40 people
+                    </span>
+                    <span>
+                        <label>Price</label>
+                        <b style="color: #fff;">₦1,670,000</b>
+                    </span>
+                    <button class="open-popup">Book</button>
+                </div>
+                <!-- 5 Hour Card -->
+                <div class="card" data-duration="unlimited">
+                    <img src="./images/logo.png" alt="">
+                    <h3>5 Hour Unlimited - 50 People</h3>
+                    <span>
+                        <label>Coins per Person</label>
+                        Unlimited
+                    </span>
+                    <span>
+                        <label>Games Available</label>
+                        Car Race Game, Bike Race Game, Basketball Game, Air Hockey, Shooting Game, Dance Dance Revolution, PS5/Xbox
+
+                    </span>
+                    <span>
+                        <label>Benefits</label>
+                        Small chops & Drinks for 50 people
+                    </span>
+                    <span>
+                        <label>Price</label>
+                        <b style="color: #fff;">₦2,200,000</b>
+                    </span>
+                    <button class="open-popup">Book</button>
+                </div>
+            </div>
+
+        </div>
+        <div id="partnership">
+            <div class="pcontainer">
+
+<h1>Bringing the Best Arcade Games to Life</h1>
+
+<span>
+    At <b>Game Wave Crib</b>, we believe in delivering top-notch gaming experiences to our outlets across Lagos. We invite you to be a part of this exciting venture by choosing games from our collection to install at any of our outlets. With a seamless revenue-sharing model, you’ll enjoy consistent returns on your investment without worrying about the hassle of operations.  
+</span>
+<br><br>
+
+<h2 class="how">How It Works</h2> 
+<ol>
+    <li>
+        <b>Choose Your Games</b> <br> 
+   - Browse our wide range of arcade games on our website. With prices ranging from <b>₦2,500 – ₦6,000 per play session</b>, there’s a game for everyone, from timeless classics to modern favorites.  
+    </li>
+    <li>
+        <b>We Handle the Setup</b> <br>
+   - Once you select your game, we’ll install it in one of our vibrant <b>Game Wave Crib outlets</b>. We manage everything—from placement to technical setup—to ensure the best gaming experience for our customers.  
+    </li>
+    <li>
+        <b>Profit Sharing</b> <br> 
+   - Sit back and watch the profits roll in! With our <b>60/40 revenue-sharing model</b>, you receive <b>60%</b> of the revenue generated from your game, while <b>Game Wave Crib</b> retains <b>40%</b> to cover running costs, maintenance, and customer support.  
+    </li>
+</ol>
+<br><br>
+
+<h2>Why Choose Game Wave Crib?</h2>
+<ol>
+    <li>
+        <b>Affordable Investment</b> <br> With low upfront costs, you can start earning quickly.  
+    </li>
+    <li>
+        <b>Hassle-Free Management</b><br> We handle operations, technical support, and maintenance, ensuring your games are always running perfectly.  
+    </li>
+    <li>
+        <b>Prime Outlets</b><br> Your games are placed in our well-located and highly trafficked outlets, attracting a steady stream of players.  
+    </li>
+    <li>
+        <b>Transparent Reporting</b><br> Get regular updates on the performance and revenue of your games.  
+    </li>
+</ol>
+<br><br>
+
+<h2 class="play">Let’s Play Together!</h2>
+<span>
+    At <b>Game Wave Crib</b>, we make it easy for you to be part of the gaming revolution. Whether you’re a gaming enthusiast or someone looking for a smart investment, this is your chance to join a growing network of fun and profit.  
+</span>
+
+
+
+            </div>
+            <div class="bottom">
+                <span>Ready to get started?</span>  
+                <div class="buttons">
+                    <a href="#explore" class="btn">Explore Our Games</a>
+                    <span>Or</span>
+                    <a href="#contact" class="btn">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div id="explore">
+            <h1>Games</h1>
+            <div class="game-container">
+                <div class="game-card">
+                    <div class="imgbox">
+                        <img src="./images/games/1730906384_Alpha_Ops_VR_Strike_Cabinet.png" alt="">
+                    </div>
+                    <hr>
+                    <span>alpha ops VR strick twin</span>
+                </div>
+                <div class="game-card">
+                    <div class="imgbox">
+                        <img src="./images/games/Allstars_Ultimate_Disk_Cabinet.png" alt="">
+                    </div>
+                    <hr>
+                    <span>allstars ultimate disc</span>
+                </div>
+                <div class="game-card">
+                    <div class="imgbox">
+                        <img src="./images/games/VR_Agent_Cabinet_-_Angle.png" alt="">
+                    </div>
+                    <hr>
+                    <span>VR agent</span>
+                </div>
+                <div class="game-card">
+                    <div class="imgbox">
+                        <img src="./images/games/Allstars_Air_Hockey_Cabinet-removebg-preview.png" alt="">
+                    </div>
+                    <hr>
+                    <span>allstars air hockey</span>
+                </div>
+                <div class="game-card">
+                    <div class="imgbox">
+                        <img src="./images/games/Adde9d58742214f1f9539d7f38a0ad6faE-removebg-preview.png" alt="">
+                    </div>
+                    <hr>
+                    <span>allstars air hockey</span>
+                </div>
+                <div class="game-card">
+                    <div class="imgbox">
+                        <img src="./images/games/Allstars_Air_Hockey_Cabinet-removebg-preview.png" alt="">
+                    </div>
+                    <hr>
+                    <span>allstars air hockey</span>
+                </div>
+                <div class="game-card">
+                    <div class="imgbox">
+                        <img src="./images/games/Allstars_Air_Hockey_Cabinet-removebg-preview.png" alt="">
+                    </div>
+                    <hr>
+                    <span>allstars air hockey</span>
+                </div>
+                <div class="game-card">
+                    <div class="imgbox">
+                        <img src="./images/games/Allstars_Air_Hockey_Cabinet-removebg-preview.png" alt="">
+                    </div>
+                    <hr>
+                    <span>allstars air hockey</span>
+                </div>
+            </div>
+        </div>
+        <div id="events">
+            <h1>Events</h1>
+            <div class="event-container">
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (1).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            January 1
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            New Year’s Day
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            New Wave Bash
+                        </span>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (3).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            February 14
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            Valentine’s Day
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            Love & Play Arcade Nights
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (2).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            March 29
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            Good Friday
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            Good Vibes Game Fest
+                        </span>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (5).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            March 31
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            Easter Sunday
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            Easter Joy Arcade Carnival
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (4).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            April 1
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            Easter Monday
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            Egg-Citing Game Hunt
+                        </span>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (3).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            May 1
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            Workers' Day
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            Break Time Arcade Fest
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (1).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            May 27
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            Children's Day
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            Kid's Play Carnival
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (2).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            June 12
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            Democracy Day
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            Freedom Play Fiesta
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (3).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            July 19
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            Eid al-Adha (Tentative)
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            Big Eid Game Fest
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (2).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            October 1
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            Independence Day
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            Naija Game Independence Bash
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (1).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            October 31
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            Halloween Weekend
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            Spooky Gamewave Night
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (3).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            November 29
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            Black Friday
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            Blackout Game Deals
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (2).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            December 25
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            Christmas Day
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            Jingle Joy Gamewave
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (1).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            December 26
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            Boxing Day
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            GameBox Challenge
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="imgbox">
+                        <img src="./images/events/banner (2).jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <span>
+                            <label for="">Date</label> 
+                            December 31
+                        </span>
+                        <span>
+                            <label for="">Holiday/Event</label> 
+                            New Year’s Eve
+                        </span>
+                        <span>
+                            <label for="">Event Theme</label> 
+                            Final Play Countdown
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                  
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                  
+                  <label for="number">Your Phone No.</label>
+                  <input type="number" id="number" name="number" placeholder="+234 000 000 0000" required>
+                  
+                  <label for="message">Your Message</label>
+                  <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                  
+                  <button type="submit">Send Message</button>
+                </form>
+              </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7794455125036!2d3.521237024994748!3d6.4223779743301845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf643d86af935%3A0x3ff9cb3f149a6e85!2sAlpha%20Beach!5e0!3m2!1sen!2sng!4v1735498527422!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <!-- Logo and About Section -->
+                <div class="footer-logo">
+                    <div class="logo">
+                        <img src="./images/logo.png" alt="GameWaveCrib Logo">
+                    </div>
+                    <p>GameWaveCrib Your ultimate arcade gaming experience! Join us for exciting events, parties, and fun for everyone.</p>
+                </div>
+        
+                <!-- Quick Links Section -->
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#booking">Booking</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#partnership">Partnership</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Contact Info Section -->
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: info@gamewavecrib.com</p>
+                    <p>Phone: +1 123-456-7890</p>
+                    <p>Address: 123 Arcade Lane, Gametown, USA</p>
+                </div>
+            </div>
+        
+            <!-- Social Media and Copyright -->
+            <div class="footer-bottom">
+                <div class="social-media">
+                    <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+                <p>&copy; 2024 GameWaveCrib. All rights reserved.</p>
+            </div>
+        </footer>
+        
+        
+        <script src="./script.js" async defer></script>
+    </body>
+</html>
